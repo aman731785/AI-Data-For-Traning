@@ -1,0 +1,548 @@
+{"instruction": "Operating system kya hai?", "response": "OS software hai jo hardware aur software ke beech interface provide karta hai."}
+{"instruction": "File system kya hai?", "response": "OS ka part jo files ko organize aur manage karta hai storage me."}
+{"instruction": "Directory ka role kya hai?", "response": "Files ko organize karne ke liye folders ya directories banata hai."}
+{"instruction": "File create kaise karte hain?", "response": "OS commands ya programming se new file create ki ja sakti hai."}
+{"instruction": "File read kaise karte hain?", "response": "File ka content access karne ke liye OS ke read operations use hote hain."}
+{"instruction": "File write kaise karte hain?", "response": "OS write operations se data file me store hota hai."}
+{"instruction": "File delete kaise karte hain?", "response": "OS delete command ya programming API se file remove hoti hai."}
+{"instruction": "Path kya hota hai?", "response": "File ya directory ka location specify karne ka tarika."}
+{"instruction": "Absolute path aur relative path me difference?", "response": "Absolute path full location deta hai, relative path current directory ke reference se."}
+{"instruction": "File permissions kya hai?", "response": "OS me file access control ke liye read, write aur execute permissions hoti hain."}
+{"instruction": "Process kya hai?", "response": "Program ka running instance jo OS resources use karta hai."}
+{"instruction": "Thread kya hai?", "response": "Process ka chhota execution unit jo independently run kar sakta hai."}
+{"instruction": "CPU scheduling kya hai?", "response": "OS decide karta hai kaunsa process CPU use kare aur kab."}
+{"instruction": "Memory management kya hai?", "response": "OS RAM allocate aur deallocate karta hai processes ke liye."}
+{"instruction": "Virtual memory kya hai?", "response": "OS RAM aur disk combine karke large memory space provide karta hai."}
+{"instruction": "Paging kya hai?", "response": "Memory ko fixed-size blocks me divide karna aur map karna."}
+{"instruction": "Segmentation kya hai?", "response": "Memory ko logical segments me divide karna like code, data, stack."}
+{"instruction": "File handle kya hai?", "response": "OS ke through ek file ko uniquely identify karne ka reference."}
+{"instruction": "Open file kaise karte hain?", "response": "OS ke open command ya API call se file accessible hoti hai."}
+{"instruction": "Close file kaise karte hain?", "response": "OS close command ya API call se file release hoti hai aur save hoti hai."}
+{"instruction": "System call kya hai?", "response": "OS services use karne ke liye user program ka interface."}
+{"instruction": "Kernel kya hai?", "response": "OS ka core part jo hardware aur software ko manage karta hai."}
+{"instruction": "Device driver kya hai?", "response": "Software jo OS ko hardware device se communicate karne deta hai."}
+{"instruction": "Interrupt kya hai?", "response": "Hardware ya software signal jo CPU attention attract karta hai."}
+{"instruction": "Context switch kya hai?", "response": "CPU ek process se dusre process me shift karne ka mechanism."}
+{"instruction": "Swap memory kya hai?", "response": "Disk ka area jo RAM ke overflow ko temporarily store karta hai."}
+{"instruction": "Cache memory kya hai?", "response": "High-speed memory jo frequently used data store karti hai CPU ke liye."}
+{"instruction": "Boot process kya hai?", "response": "Computer start hone se OS load hone tak ke steps."}
+{"instruction": "Command line interface kya hai?", "response": "Text-based interface jaha user commands type karke system control karta hai."}
+{"instruction": "Graphical user interface kya hai?", "response": "Visual interface jaha icons aur menus se system control hota hai."}
+{"instruction": "List directory contents kaise karte hain?", "response": "OS ke command ya API se current folder ke sare files aur subdirectories list hote hain."}
+{"instruction": "Create folder kaise karte hain?", "response": "OS ke mkdir command ya programming API se new folder banaya ja sakta hai."}
+{"instruction": "Rename file kaise karte hain?", "response": "OS rename command ya API call se file ka naam change hota hai."}
+{"instruction": "Move file kaise karte hain?", "response": "OS move command ya programming function se file ek location se dusre location me shift hoti hai."}
+{"instruction": "Copy file kaise karte hain?", "response": "OS copy command ya API call se file ki duplicate create hoti hai."}
+{"instruction": "Check file existence kaise karte hain?", "response": "OS ke file check function se pata chalta hai ki file exist karti hai ya nahi."}
+{"instruction": "Get file size kaise karte hain?", "response": "OS ke API se file ka size bytes me pata lagta hai."}
+{"instruction": "Get file type kaise pata karein?", "response": "OS file extension aur metadata se file type identify karta hai."}
+{"instruction": "Process ID kya hai?", "response": "Unique number jo OS har running process ko assign karta hai."}
+{"instruction": "Kill process kaise karte hain?", "response": "OS ke kill command ya API se process terminate hota hai."}
+{"instruction": "List running processes kaise karte hain?", "response": "OS ke ps ya tasklist command se running processes dikhte hain."}
+{"instruction": "CPU usage kaise check karte hain?", "response": "OS ke monitoring tools CPU ka current usage report karte hain."}
+{"instruction": "Memory usage kaise check karte hain?", "response": "OS ke tools ya API se RAM aur swap memory usage pata chalti hai."}
+{"instruction": "Disk space check kaise karte hain?", "response": "OS ke df ya disk management tool se storage ka usage dikhai deta hai."}
+{"instruction": "Network interfaces kaise list karte hain?", "response": "OS ke ifconfig ya ipconfig command se network interfaces dikhte hain."}
+{"instruction": "IP address kaise pata karein?", "response": "OS network command se system ka current IP address pata chalta hai."}
+{"instruction": "Check system uptime kaise karte hain?", "response": "OS uptime command se system kitna time chala hai pata chalta hai."}
+{"instruction": "Log files kya hoti hain?", "response": "System ke events aur errors ko record karne wali files log files kehlati hain."}
+{"instruction": "View system logs kaise karte hain?", "response": "OS ke log viewer ya command se system logs access kiye ja sakte hain."}
+{"instruction": "Set environment variable kaise karte hain?", "response": "OS command ya script se environment variables define kiye ja sakte hain."}
+{"instruction": "Get environment variable kaise karte hain?", "response": "OS ke command ya API se environment variable ka value read hota hai."}
+{"instruction": "System time kaise change karte hain?", "response": "OS time settings ya command se system clock update hota hai."}
+{"instruction": "System date kaise change karte hain?", "response": "OS date settings ya command se system date update hoti hai."}
+{"instruction": "Shutdown computer kaise karte hain?", "response": "OS shutdown command ya button se system power off hota hai."}
+{"instruction": "Restart computer kaise karte hain?", "response": "OS reboot command ya option se system restart hota hai."}
+{"instruction": "Sleep mode ka kya kaam hai?", "response": "System low power mode me chala jata hai lekin memory state preserve hoti hai."}
+{"instruction": "Hibernate mode kya hai?", "response": "System RAM ka data disk me save karke completely power off hota hai."}
+{"instruction": "User account create kaise karte hain?", "response": "OS user management command ya GUI se naya account banaya ja sakta hai."}
+{"instruction": "User permissions kaise set karte hain?", "response": "OS ke file properties ya command se access rights assign kiye jaate hain."}
+{"instruction": "Check OS version kaise karte hain?", "response": "OS command ya system info se current OS version aur build number pata chalta hai."}
+{"instruction": "Schedule task kaise karte hain?", "response": "OS ke task scheduler ya cron job se automated task set kiya ja sakta hai."}
+{"instruction": "Run script automatically kaise karte hain?", "response": "Scheduled task ya startup folder me script place karke automatic run karaya ja sakta hai."}
+{"instruction": "Check running services kaise karte hain?", "response": "OS ke service manager ya command se currently running services list hoti hain."}
+{"instruction": "Start service kaise karte hain?", "response": "OS service start command ya GUI se service ko start kar sakte hain."}
+{"instruction": "Stop service kaise karte hain?", "response": "OS service stop command ya GUI se service ko terminate kar sakte hain."}
+{"instruction": "Enable service on startup kaise karte hain?", "response": "OS ke service manager me auto-start option enable karke service startup pe run karai ja sakti hai."}
+{"instruction": "Disable service on startup kaise karte hain?", "response": "OS ke service manager me auto-start disable karke service startup se rok sakte hain."}
+{"instruction": "Check system logs for errors kaise karte hain?", "response": "OS ke log viewer ya command se error logs filter karke dekhe ja sakte hain."}
+{"instruction": "Monitor CPU temperature kaise karte hain?", "response": "OS ke hardware monitoring tools ya APIs se CPU temperature read hota hai."}
+{"instruction": "Monitor GPU usage kaise karte hain?", "response": "OS ke monitoring tools ya driver utilities se GPU usage track hota hai."}
+{"instruction": "Check open ports kaise karte hain?", "response": "OS netstat command ya network tools se open ports list hoti hain."}
+{"instruction": "Close open port kaise karte hain?", "response": "OS firewall rules ya process termination se open port close kiya ja sakta hai."}
+{"instruction": "Enable firewall kaise karte hain?", "response": "OS firewall settings ya command se firewall enable hota hai."}
+{"instruction": "Disable firewall kaise karte hain?", "response": "OS firewall settings ya command se firewall disable hota hai."}
+{"instruction": "Check connected devices kaise karte hain?", "response": "OS ke device manager ya command se connected hardware devices list hoti hain."}
+{"instruction": "Mount external drive kaise karte hain?", "response": "OS command ya GUI se external storage device mount hota hai."}
+{"instruction": "Unmount external drive kaise karte hain?", "response": "OS command ya GUI se external storage device safely unmount hota hai."}
+{"instruction": "Check disk errors kaise karte hain?", "response": "OS disk check tool ya fsck command se disk errors detect kiye ja sakte hain."}
+{"instruction": "Repair disk errors kaise karte hain?", "response": "OS disk repair utility ya fsck command se detected errors fix kiye ja sakte hain."}
+{"instruction": "Backup files kaise karte hain?", "response": "OS backup utility ya script se important files ka backup create hota hai."}
+{"instruction": "Restore backup kaise karte hain?", "response": "OS backup restore utility ya script se backup files original location me restore hote hain."}
+{"instruction": "Compress files kaise karte hain?", "response": "OS ke zip/rar tools ya command line se files compress hoti hain."}
+{"instruction": "Extract compressed files kaise karte hain?", "response": "OS ke unzip/untar command ya tool se compressed files extract hote hain."}
+{"instruction": "Check system performance kaise karte hain?", "response": "OS ke performance monitor ya task manager se CPU, memory aur disk usage dekhe ja sakte hain."}
+{"instruction": "Clean temporary files kaise karte hain?", "response": "OS ke temp folder ya cleanup utility se unnecessary files delete ki ja sakti hain."}
+{"instruction": "Check battery health kaise karte hain?", "response": "OS battery report command ya GUI tool se battery status aur health check hoti hai."}
+{"instruction": "Adjust power plan kaise karte hain?", "response": "OS power settings ya command se system ka power plan change kiya ja sakta hai."}
+{"instruction": "Check network speed kaise karte hain?", "response": "OS ke network tools ya speed test applications se download/upload speed measure hoti hai."}
+{"instruction": "Disconnect network interface kaise karte hain?", "response": "OS ke network manager ya command se specific network interface disable hota hai."}
+{"instruction": "Connect to Wi-Fi via command kaise karte hain?", "response": "OS command ya network manager API se Wi-Fi connect kiya ja sakta hai."}
+{"instruction": "Create new user account kaise karte hain?", "response": "OS ke user management tool ya command se naya user account create kiya ja sakta hai."}
+{"instruction": "Delete user account kaise karte hain?", "response": "OS user management tool ya command se user account delete hota hai."}
+{"instruction": "Change user password kaise karte hain?", "response": "OS password change utility ya command se user password update kiya ja sakta hai."}
+{"instruction": "Lock user account kaise karte hain?", "response": "OS ke account settings ya command se user account temporary lock kiya ja sakta hai."}
+{"instruction": "Unlock user account kaise karte hain?", "response": "OS account settings ya command se previously locked account unlock hota hai."}
+{"instruction": "Add user to group kaise karte hain?", "response": "OS ke user management tool ya command se user group me add hota hai."}
+{"instruction": "Remove user from group kaise karte hain?", "response": "OS command ya GUI se user ko specific group se remove kiya ja sakta hai."}
+{"instruction": "Check current logged in users kaise karte hain?", "response": "OS command ya session manager se currently logged in users list hoti hai."}
+{"instruction": "Monitor failed login attempts kaise karte hain?", "response": "OS security logs ya command se failed login attempts track kiye ja sakte hain."}
+{"instruction": "Set account lockout policy kaise karte hain?", "response": "OS security policy settings se multiple failed logins pe account lock hota hai."}
+{"instruction": "Enable two-factor authentication kaise karte hain?", "response": "OS security settings ya authentication app se 2FA enable kiya ja sakta hai."}
+{"instruction": "Disable two-factor authentication kaise karte hain?", "response": "OS security settings se 2FA temporarily disable hota hai."}
+{"instruction": "Encrypt files kaise karte hain?", "response": "OS ke encryption tools ya command line se selected files encrypt kiye ja sakte hain."}
+{"instruction": "Decrypt files kaise karte hain?", "response": "Encryption key ya OS decryption utility se files decrypt kiye ja sakte hain."}
+{"instruction": "Set folder permissions kaise karte hain?", "response": "OS ke file properties ya command se read/write/execute permissions set hoti hain."}
+{"instruction": "Change folder ownership kaise karte hain?", "response": "OS command ya file properties se folder ka owner change hota hai."}
+{"instruction": "Check active firewall rules kaise karte hain?", "response": "OS firewall command ya GUI se current active rules dekhe ja sakte hain."}
+{"instruction": "Add new firewall rule kaise karte hain?", "response": "OS firewall settings ya command se naya rule create hota hai."}
+{"instruction": "Remove firewall rule kaise karte hain?", "response": "OS firewall command ya GUI se specific rule delete hota hai."}
+{"instruction": "Monitor system logs for unauthorized access kaise karte hain?", "response": "OS security logs ya SIEM tool se unauthorized access attempts track hote hain."}
+{"instruction": "Enable audit logging kaise karte hain?", "response": "OS audit policy ya command se system events logging enable hoti hai."}
+{"instruction": "Disable audit logging kaise karte hain?", "response": "OS audit settings ya command se event logging temporarily disable hoti hai."}
+{"instruction": "Check file integrity kaise karte hain?", "response": "OS ke checksum tools ya hash verification se file integrity check hoti hai."}
+{"instruction": "Monitor running processes kaise karte hain?", "response": "OS task manager ya command line se currently running processes dekhe ja sakte hain."}
+{"instruction": "Kill suspicious process kaise karte hain?", "response": "OS task manager ya kill command se suspicious process terminate hota hai."}
+{"instruction": "Check installed software kaise karte hain?", "response": "OS package manager ya GUI se installed applications ki list milti hai."}
+{"instruction": "Uninstall software kaise karte hain?", "response": "OS package manager ya control panel se software remove hota hai."}
+{"instruction": "Enable system restore point kaise karte hain?", "response": "OS system restore settings se restore point create aur enable hota hai."}
+{"instruction": "Restore system using restore point kaise karte hain?", "response": "OS system restore utility se previous restore point me system revert hota hai."}
+{"instruction": "Create new folder kaise karte hain?", "response": "OS command ya GUI se naya folder create kiya ja sakta hai."}
+{"instruction": "Delete folder kaise karte hain?", "response": "OS command ya GUI se folder permanently delete hota hai."}
+{"instruction": "Rename folder kaise karte hain?", "response": "OS command ya GUI se folder ka naam change kiya ja sakta hai."}
+{"instruction": "Move folder kaise karte hain?", "response": "OS command ya drag-drop se folder ko ek location se dusre location me move kiya ja sakta hai."}
+{"instruction": "Copy folder kaise karte hain?", "response": "OS command ya GUI se folder copy hota hai aur dusri location me paste kiya ja sakta hai."}
+{"instruction": "Check folder size kaise karte hain?", "response": "OS properties ya command se folder ke andar files ka total size check hota hai."}
+{"instruction": "List folder contents kaise karte hain?", "response": "OS command ya GUI se folder ke andar files aur subfolders ki list dekhi ja sakti hai."}
+{"instruction": "Search file in folder kaise karte hain?", "response": "OS search utility ya command se specific file folder me search hoti hai."}
+{"instruction": "Set folder permissions kaise karte hain?", "response": "OS folder properties ya command se read/write/execute permissions set ki ja sakti hain."}
+{"instruction": "Change folder ownership kaise karte hain?", "response": "OS command ya properties se folder ka owner change hota hai."}
+{"instruction": "Hide folder kaise karte hain?", "response": "OS properties ya command se folder ko hidden attribute diya ja sakta hai."}
+{"instruction": "Unhide folder kaise karte hain?", "response": "Hidden attribute remove karke folder wapas visible hota hai."}
+{"instruction": "Compress folder kaise karte hain?", "response": "OS compression utility ya command se folder zip/rar format me compress hota hai."}
+{"instruction": "Extract compressed folder kaise karte hain?", "response": "OS extract tool ya command se compressed folder ke andar content extract hota hai."}
+{"instruction": "Check folder creation date kaise karte hain?", "response": "OS properties ya command se folder ka creation date dekha ja sakta hai."}
+{"instruction": "Check folder modification date kaise karte hain?", "response": "OS properties ya command se folder ka last modified date dekha ja sakta hai."}
+{"instruction": "Monitor folder changes kaise karte hain?", "response": "OS file system watcher ya command se folder me hone wale changes monitor kiye ja sakte hain."}
+{"instruction": "Set folder as read-only kaise karte hain?", "response": "OS properties ya command se folder read-only mode me set hota hai."}
+{"instruction": "Remove read-only from folder kaise karte hain?", "response": "OS properties ya command se folder ka read-only attribute remove hota hai."}
+{"instruction": "Check folder path kaise karte hain?", "response": "OS command ya GUI se folder ka full path check hota hai."}
+{"instruction": "Open folder using command line kaise karte hain?", "response": "Command line se OS command ya path type karke folder open hota hai."}
+{"instruction": "Close folder kaise karte hain?", "response": "OS GUI me folder window close button ya command line se close hota hai."}
+{"instruction": "Set folder as favorite kaise karte hain?", "response": "OS GUI se folder ko favorites ya quick access me add kiya ja sakta hai."}
+{"instruction": "Remove folder from favorites kaise karte hain?", "response": "OS GUI se folder ko favorites list se remove kiya ja sakta hai."}
+{"instruction": "Compare two folders kaise karte hain?", "response": "OS comparison tool ya command se folders ke content ko compare kiya ja sakta hai."}
+{"instruction": "Synchronize two folders kaise karte hain?", "response": "OS sync utility ya command se folders ka content match karaya ja sakta hai."}
+{"instruction": "Check folder disk usage kaise karte hain?", "response": "OS command ya properties se folder ke disk usage ka pata lagta hai."}
+{"instruction": "Backup folder kaise karte hain?", "response": "OS backup tool ya copy utility se folder ka backup create hota hai."}
+{"instruction": "Restore folder from backup kaise karte hain?", "response": "Backup se folder restore utility ya command ke through wapas laya ja sakta hai."}
+{"instruction": "Monitor folder access kaise karte hain?", "response": "OS audit settings ya file system watcher se folder access monitor kiya ja sakta hai."}
+{"instruction": "Create new file kaise karte hain?", "response": "OS command ya GUI se nayi file create ki ja sakti hai."}
+{"instruction": "Delete file kaise karte hain?", "response": "OS command ya GUI se file permanently delete hoti hai."}
+{"instruction": "Rename file kaise karte hain?", "response": "OS command ya GUI se file ka naam change kiya ja sakta hai."}
+{"instruction": "Move file kaise karte hain?", "response": "OS command ya drag-drop se file ek location se dusre location me move hoti hai."}
+{"instruction": "Copy file kaise karte hain?", "response": "OS command ya GUI se file copy hoti hai aur dusri location me paste ki ja sakti hai."}
+{"instruction": "Open file using command line kaise karte hain?", "response": "Command line me OS command ya path type karke file open hoti hai."}
+{"instruction": "Close file kaise karte hain?", "response": "GUI me file window close button ya OS command se file close hoti hai."}
+{"instruction": "Read file contents kaise karte hain?", "response": "OS command ya programming language ka function use karke file ke contents read kiye ja sakte hain."}
+{"instruction": "Write data to file kaise karte hain?", "response": "OS command ya programming function se file me naya data write kiya ja sakta hai."}
+{"instruction": "Append data to file kaise karte hain?", "response": "File me existing content ke saath naya data add karne ke liye append mode use kiya jata hai."}
+{"instruction": "Check file size kaise karte hain?", "response": "OS properties ya command se file ka size dekha ja sakta hai."}
+{"instruction": "Check file creation date kaise karte hain?", "response": "OS properties ya command se file ka creation date dekhi ja sakti hai."}
+{"instruction": "Check file modification date kaise karte hain?", "response": "OS properties ya command se file ka last modified date dekha ja sakta hai."}
+{"instruction": "Check file access permissions kaise karte hain?", "response": "OS properties ya command se file ke read/write/execute permissions dekhe ja sakte hain."}
+{"instruction": "Change file permissions kaise karte hain?", "response": "OS command ya GUI se file ke permissions modify kiye ja sakte hain."}
+{"instruction": "Change file ownership kaise karte hain?", "response": "OS command ya properties se file ka owner change kiya ja sakta hai."}
+{"instruction": "Hide file kaise karte hain?", "response": "OS properties ya command se file ko hidden attribute diya ja sakta hai."}
+{"instruction": "Unhide file kaise karte hain?", "response": "Hidden attribute remove karke file wapas visible hoti hai."}
+{"instruction": "Compress file kaise karte hain?", "response": "OS compression utility ya command se file zip/rar format me compress hoti hai."}
+{"instruction": "Extract compressed file kaise karte hain?", "response": "OS extract tool ya command se compressed file ke andar content extract hota hai."}
+{"instruction": "Search file in folder kaise karte hain?", "response": "OS search utility ya command se specific file folder me search ki ja sakti hai."}
+{"instruction": "Compare two files kaise karte hain?", "response": "OS comparison tool ya command se files ke content ko compare kiya ja sakta hai."}
+{"instruction": "Backup file kaise karte hain?", "response": "OS backup tool ya copy utility se file ka backup create kiya ja sakta hai."}
+{"instruction": "Restore file from backup kaise karte hain?", "response": "Backup se file restore utility ya command ke through wapas laya ja sakta hai."}
+{"instruction": "Monitor file changes kaise karte hain?", "response": "OS file watcher ya command se file me hone wale changes monitor kiye ja sakte hain."}
+{"instruction": "Set file as read-only kaise karte hain?", "response": "OS properties ya command se file read-only mode me set hoti hai."}
+{"instruction": "Remove read-only from file kaise karte hain?", "response": "OS properties ya command se file ka read-only attribute remove hota hai."}
+{"instruction": "Open file in specific program kaise karte hain?", "response": "OS command ya GUI se file ko specific program me open kiya ja sakta hai."}
+{"instruction": "Check file type kaise karte hain?", "response": "OS properties ya command se file type ya extension dekha ja sakta hai."}
+{"instruction": "Set file as favorite kaise karte hain?", "response": "OS GUI se file ko favorites ya quick access me add kiya ja sakta hai."}
+{"instruction": "Check running processes kaise karte hain?", "response": "OS task manager ya command line utility se running processes dekhe ja sakte hain."}
+{"instruction": "Kill process kaise karte hain?", "response": "OS task manager ya command line command se specific process terminate kiya ja sakta hai."}
+{"instruction": "Start new process kaise karte hain?", "response": "OS command ya double-click se naya process start hota hai."}
+{"instruction": "Check process ID kaise karte hain?", "response": "OS command ya task manager se process ka PID dekha ja sakta hai."}
+{"instruction": "Check process CPU usage kaise karte hain?", "response": "OS task manager ya monitoring tool se CPU usage dekha ja sakta hai."}
+{"instruction": "Check process memory usage kaise karte hain?", "response": "OS task manager ya command line se memory usage dekhi ja sakti hai."}
+{"instruction": "Check process priority kaise karte hain?", "response": "Task manager ya command line se process priority level dekha ja sakta hai."}
+{"instruction": "Change process priority kaise karte hain?", "response": "Task manager ya command line se process ki priority badali ja sakti hai."}
+{"instruction": "Suspend process kaise karte hain?", "response": "OS debugging tool ya command line se process temporarily suspend hota hai."}
+{"instruction": "Resume suspended process kaise karte hain?", "response": "OS debugging tool ya command line se suspended process resume hota hai."}
+{"instruction": "Check background processes kaise karte hain?", "response": "Task manager ya system monitor me background processes list hoti hai."}
+{"instruction": "Bring process to foreground kaise karte hain?", "response": "OS command ya GUI se background process ko foreground me laya ja sakta hai."}
+{"instruction": "Check number of threads in process kaise karte hain?", "response": "Task manager ya monitoring tool se process ke threads count dekhe ja sakte hain."}
+{"instruction": "Kill process by name kaise karte hain?", "response": "Command line utility me process name specify karke process terminate kiya ja sakta hai."}
+{"instruction": "Kill process by PID kaise karte hain?", "response": "Command line se specific process ID ka use karke process terminate hota hai."}
+{"instruction": "List all services kaise karte hain?", "response": "OS service manager ya command line se all running services list hoti hain."}
+{"instruction": "Start service kaise karte hain?", "response": "Service manager ya command line se service start ki ja sakti hai."}
+{"instruction": "Stop service kaise karte hain?", "response": "Service manager ya command line se service stop hoti hai."}
+{"instruction": "Restart service kaise karte hain?", "response": "Service manager ya command line se service restart hoti hai."}
+{"instruction": "Check system uptime kaise karte hain?", "response": "OS command ya task manager se system ka uptime dekha ja sakta hai."}
+{"instruction": "Check active users kaise karte hain?", "response": "OS command ya task manager se currently logged-in users list ki ja sakti hai."}
+{"instruction": "Log off user kaise karte hain?", "response": "OS command ya task manager se user log off kiya ja sakta hai."}
+{"instruction": "Switch user kaise karte hain?", "response": "GUI se switch user option ya OS command se dusre account par switch hota hai."}
+{"instruction": "Shutdown system kaise karte hain?", "response": "Power menu ya OS command se system shutdown hota hai."}
+{"instruction": "Restart system kaise karte hain?", "response": "Power menu ya OS command se system restart hota hai."}
+{"instruction": "Sleep mode kaise enable karte hain?", "response": "Power menu ya command line se system sleep mode me jata hai."}
+{"instruction": "Hibernate mode kaise enable karte hain?", "response": "Power settings ya command line se system hibernate mode me jata hai."}
+{"instruction": "Check battery status kaise karte hain?", "response": "OS power settings ya command line se battery status dekha ja sakta hai."}
+{"instruction": "Monitor disk usage kaise karte hain?", "response": "OS properties ya command line tool se disk usage monitor kiya ja sakta hai."}
+{"instruction": "Monitor network usage kaise karte hain?", "response": "Task manager ya command line tool se network usage check hoti hai."}
+{"instruction": "Check current IP address kaise karte hain?", "response": "Command line me IP configuration tool se current IP address dekha ja sakta hai."}
+{"instruction": "Release IP address kaise karte hain?", "response": "Network command se IP release karke naya IP request kiya ja sakta hai."}
+{"instruction": "Renew IP address kaise karte hain?", "response": "Network command se IP renew karke fresh IP liya ja sakta hai."}
+{"instruction": "Check DNS settings kaise karte hain?", "response": "Network configuration command se DNS server settings dekhi ja sakti hain."}
+{"instruction": "Flush DNS cache kaise karte hain?", "response": "Command line command se DNS cache flush hoti hai."}
+{"instruction": "Ping test kaise karte hain?", "response": "Ping command se kisi server ya IP ka connectivity check hota hai."}
+{"instruction": "Traceroute kaise karte hain?", "response": "Traceroute command se packets ka route dekha ja sakta hai."}
+{"instruction": "Check open ports kaise karte hain?", "response": "Netstat ya similar command se system ke open ports list hote hain."}
+{"instruction": "Check active connections kaise karte hain?", "response": "Netstat command se active TCP/UDP connections dekhe ja sakte hain."}
+{"instruction": "Check default gateway kaise karte hain?", "response": "Network configuration command se default gateway dekha ja sakta hai."}
+{"instruction": "Check subnet mask kaise karte hain?", "response": "IP configuration command se subnet mask details milti hain."}
+{"instruction": "Check MAC address kaise karte hain?", "response": "IP configuration tool ya OS settings me network adapter ka MAC dekha ja sakta hai."}
+{"instruction": "Enable network adapter kaise karte hain?", "response": "Network settings ya command line se adapter enable hota hai."}
+{"instruction": "Disable network adapter kaise karte hain?", "response": "Network settings ya command line se adapter disable hota hai."}
+{"instruction": "Restart network adapter kaise karte hain?", "response": "Disable aur enable karne se adapter restart hota hai."}
+{"instruction": "Check Wi-Fi networks kaise karte hain?", "response": "OS Wi-Fi manager ya command line se available Wi-Fi list hoti hai."}
+{"instruction": "Connect Wi-Fi kaise karte hain?", "response": "Wi-Fi manager me password dal kar connect kiya jata hai."}
+{"instruction": "Disconnect Wi-Fi kaise karte hain?", "response": "Wi-Fi settings ya command line se Wi-Fi disconnect hota hai."}
+{"instruction": "Check network speed kaise karte hain?", "response": "Speed test tools ya command line utilities se speed check hoti hai."}
+{"instruction": "Check public IP address kaise karte hain?", "response": "Web browser ya command line tool se public IP check hota hai."}
+{"instruction": "Download file from URL kaise karte hain?", "response": "Command line download tool ya browser se file download hoti hai."}
+{"instruction": "Upload file to server kaise karte hain?", "response": "FTP/SFTP command ya client se file upload hoti hai."}
+{"instruction": "Check HTTP response kaise karte hain?", "response": "Curl ya similar command se server ka HTTP response check hota hai."}
+{"instruction": "Check website status kaise karte hain?", "response": "Ping, curl ya browser se website status test hota hai."}
+{"instruction": "Check SSL certificate kaise karte hain?", "response": "OpenSSL ya browser se certificate details check hoti hain."}
+{"instruction": "Check open Wi-Fi security kaise karte hain?", "response": "Wi-Fi manager me security type WPA/WEP/Open check hota hai."}
+{"instruction": "Enable airplane mode kaise karte hain?", "response": "System settings me airplane mode enable hota hai."}
+{"instruction": "Disable airplane mode kaise karte hain?", "response": "System settings me airplane mode disable hota hai."}
+{"instruction": "Check VPN connection kaise karte hain?", "response": "VPN client ya OS settings se active VPN connection dekha ja sakta hai."}
+{"instruction": "Disconnect VPN kaise karte hain?", "response": "VPN client ya settings me disconnect button se VPN band hota hai."}
+{"instruction": "Check available disks kaise karte hain?", "response": "Disk listing command se system ke saare connected disks list hote hain."}
+{"instruction": "Check disk partitions kaise karte hain?", "response": "Partition listing tool ya command se har disk ki partition table dekhi ja sakti hai."}
+{"instruction": "Check disk usage kaise karte hain?", "response": "Disk usage command se har partition ka used aur free space dekha ja sakta hai."}
+{"instruction": "Format disk kaise karte hain?", "response": "Format command se disk ya partition ko desired file system me format kiya ja sakta hai."}
+{"instruction": "Mount disk kaise karte hain?", "response": "Mount command se disk ya partition ko OS me mount point par attach kiya jata hai."}
+{"instruction": "Unmount disk kaise karte hain?", "response": "Unmount command se disk ko safely system se detach kiya jata hai."}
+{"instruction": "Check mounted disks kaise karte hain?", "response": "Mount command ya system utility se currently mounted disks list hote hain."}
+{"instruction": "Create new partition kaise karte hain?", "response": "Partitioning tool se disk me nayi partition banayi ja sakti hai."}
+{"instruction": "Delete partition kaise karte hain?", "response": "Partitioning tool me delete option se existing partition remove ki ja sakti hai."}
+{"instruction": "Resize partition kaise karte hain?", "response": "Partition manager tool se partition ko expand ya shrink kiya ja sakta hai."}
+{"instruction": "Check file system type kaise karte hain?", "response": "Disk information command se partition ka file system (NTFS, FAT32, ext4 etc.) check hota hai."}
+{"instruction": "Convert file system type kaise karte hain?", "response": "File system conversion tools se FAT ko NTFS ya ext ko ext4 me convert kiya ja sakta hai."}
+{"instruction": "Check disk health kaise karte hain?", "response": "SMART tools ya disk utility se disk ka health status check hota hai."}
+{"instruction": "Check read/write speed kaise karte hain?", "response": "Disk benchmark tools se read aur write speed test hoti hai."}
+{"instruction": "Create file system kaise karte hain?", "response": "Make filesystem command se partition par naya file system banaya ja sakta hai."}
+{"instruction": "Label disk kaise karte hain?", "response": "Disk label setting command se disk ko custom naam diya ja sakta hai."}
+{"instruction": "Check disk label kaise karte hain?", "response": "Disk info tool se label dekha ja sakta hai."}
+{"instruction": "Check free inodes kaise karte hain?", "response": "File system info command se available inodes ka status dekha ja sakta hai."}
+{"instruction": "Repair file system kaise karte hain?", "response": "File system repair command se corrupt partition ko fix kiya ja sakta hai."}
+{"instruction": "Check disk errors kaise karte hain?", "response": "Disk check tool se bad sectors aur file system errors detect kiye ja sakte hain."}
+{"instruction": "Check mount options kaise karte hain?", "response": "Mount listing command me mount options jaise read-only/read-write dekhe ja sakte hain."}
+{"instruction": "Remount disk read-only kaise karte hain?", "response": "Remount command se disk ko read-only mode me remount kiya ja sakta hai."}
+{"instruction": "Remount disk read-write kaise karte hain?", "response": "Remount command se disk ko read-write mode me remount kiya ja sakta hai."}
+{"instruction": "Check hidden files kaise karte hain?", "response": "File listing command with hidden flag se hidden files dikhte hain."}
+{"instruction": "Show file permissions kaise karte hain?", "response": "File detail listing command se file ka permission (rwx) status dekha ja sakta hai."}
+{"instruction": "Change file permissions kaise karte hain?", "response": "Permission changing command se file ke read/write/execute rights badle ja sakte hain."}
+{"instruction": "Change file owner kaise karte hain?", "response": "Ownership changing command se file ka owner badla ja sakta hai."}
+{"instruction": "Check disk UUID kaise karte hain?", "response": "Disk info command se partition ka unique identifier (UUID) dekha ja sakta hai."}
+{"instruction": "Mount by UUID kaise karte hain?", "response": "Mount command me UUID use karke specific partition mount kiya ja sakta hai."}
+{"instruction": "Automount disk kaise karte hain?", "response": "System config file me entry karke disk ko boot time pe auto mount kiya ja sakta hai."}
+{"instruction": "Check total disk space kaise karte hain?", "response": "Disk space check karne ke liye OS ke disk utility ya command line disk usage tool ka use hota hai."}
+{"instruction": "Check free disk space kaise karte hain?", "response": "Command line se ya disk manager se free space dekh sakte hain."}
+{"instruction": "List all disk partitions kaise karte hain?", "response": "Disk listing command ya disk management tool se partitions ki list milti hai."}
+{"instruction": "Check file system type kaise karte hain?", "response": "Disk properties ya command line se file system type (NTFS, FAT32, ext4) dekha ja sakta hai."}
+{"instruction": "Create new partition kaise karte hain?", "response": "Disk management tool ya partitioning command se naya partition banaya ja sakta hai."}
+{"instruction": "Delete partition kaise karte hain?", "response": "Disk management ya partitioning tool se partition delete kiya ja sakta hai."}
+{"instruction": "Format partition kaise karte hain?", "response": "Formatting command ya disk utility se partition format hota hai."}
+{"instruction": "Mount disk kaise karte hain?", "response": "Mount command se disk ko file system me mount kiya jata hai."}
+{"instruction": "Unmount disk kaise karte hain?", "response": "Unmount command se disk ko safely remove kiya jata hai."}
+{"instruction": "Check mounted disks kaise karte hain?", "response": "Mount command ya disk utility se mounted disks ki list dekhi ja sakti hai."}
+{"instruction": "Check disk health kaise karte hain?", "response": "Disk health checking tools (SMART status) ka use karke health check hoti hai."}
+{"instruction": "Check disk read/write speed kaise karte hain?", "response": "Benchmarking tools se disk ke read/write speed test kiye ja sakte hain."}
+{"instruction": "Rename drive kaise karte hain?", "response": "Disk properties me label change karke drive rename kiya ja sakta hai."}
+{"instruction": "Assign drive letter kaise karte hain?", "response": "Disk management me kisi partition ko naya drive letter assign kiya jata hai."}
+{"instruction": "Remove drive letter kaise karte hain?", "response": "Disk management tool me drive letter remove kiya ja sakta hai."}
+{"instruction": "Check external USB storage kaise karte hain?", "response": "Device manager ya disk utility me USB device dikhta hai."}
+{"instruction": "Safely eject USB drive kaise karte hain?", "response": "System tray ya file explorer me safely eject option hota hai."}
+{"instruction": "Check hidden partitions kaise karte hain?", "response": "Advanced disk management tool me hidden partitions dekhe ja sakte hain."}
+{"instruction": "Create file system on disk kaise karte hain?", "response": "Formatting ke time file system type select karke banaya jata hai."}
+{"instruction": "Convert FAT32 to NTFS kaise karte hain?", "response": "Convert command ya formatting ke through FAT32 se NTFS me badla ja sakta hai."}
+{"instruction": "Check disk usage per folder kaise karte hain?", "response": "Disk usage analysis tool se har folder ka size dekha ja sakta hai."}
+{"instruction": "Check which folder is using more space?", "response": "Disk analyzer ya du command se space heavy folders identify hote hain."}
+{"instruction": "Shrink partition kaise karte hain?", "response": "Disk management me partition shrink option se space reduce kiya jata hai."}
+{"instruction": "Extend partition kaise karte hain?", "response": "Free space available hone par partition extend option use hota hai."}
+{"instruction": "Check logical vs primary partition kaise karte hain?", "response": "Partitioning tool me partition type (primary/logical) dikhta hai."}
+{"instruction": "Create logical volume kaise karte hain?", "response": "LVM tools ya disk manager se logical volume banaya jata hai."}
+{"instruction": "Delete logical volume kaise karte hain?", "response": "LVM tool se logical volume safely delete kiya jata hai."}
+{"instruction": "Backup partition kaise karte hain?", "response": "Disk imaging tools se partition backup banaya jata hai."}
+{"instruction": "Restore partition backup kaise karte hain?", "response": "Backup image se partition restore kiya jata hai."}
+{"instruction": "Encrypt drive kaise karte hain?", "response": "Drive encryption tools (BitLocker, LUKS) ka use karke drive encrypt ki jati hai."}
+{"instruction": "Check current logged-in user kaise karte hain?", "response": "whoami command ya system info se current user ka naam pata chalta hai."}
+{"instruction": "Check all users kaise karte hain?", "response": "System ke user database ya command line se saare users ki list dekhi ja sakti hai."}
+{"instruction": "Check groups of current user kaise karte hain?", "response": "groups command ya user properties me current user ke groups milte hain."}
+{"instruction": "Create new user kaise karte hain?", "response": "Add user command ya user management tool se naya user banaya ja sakta hai."}
+{"instruction": "Delete user kaise karte hain?", "response": "User delete command ya system tool se user ko remove kiya jata hai."}
+{"instruction": "Create new group kaise karte hain?", "response": "Group add command ya system management tool se group banaya jata hai."}
+{"instruction": "Delete group kaise karte hain?", "response": "Group delete command se unwanted group remove hota hai."}
+{"instruction": "Add user to group kaise karte hain?", "response": "User ko specific group me add karne ke liye group modification command use hota hai."}
+{"instruction": "Remove user from group kaise karte hain?", "response": "Group modification command se user ko group se remove kiya jata hai."}
+{"instruction": "Check user permissions kaise karte hain?", "response": "ls -l ya file properties se user ke permissions dekhe ja sakte hain."}
+{"instruction": "Change file permissions kaise karte hain?", "response": "chmod command ya file properties dialog se file permissions change hoti hain."}
+{"instruction": "Set read-only permission kaise karte hain?", "response": "chmod me read-only mode set karke file ko read-only banaya ja sakta hai."}
+{"instruction": "Give execute permission kaise karte hain?", "response": "chmod +x command se file ko executable banaya ja sakta hai."}
+{"instruction": "Revoke write permission kaise karte hain?", "response": "chmod -w command se write permission remove hoti hai."}
+{"instruction": "Check file owner kaise karte hain?", "response": "ls -l command ya file properties se file owner ka naam milta hai."}
+{"instruction": "Change file owner kaise karte hain?", "response": "chown command se file ka owner badla ja sakta hai."}
+{"instruction": "Change file group kaise karte hain?", "response": "chgrp command se file ka group change hota hai."}
+{"instruction": "Check effective permissions kaise karte hain?", "response": "id command ya access check command se effective permissions pata chalte hain."}
+{"instruction": "Use sudo for admin task kaise karte hain?", "response": "sudo command se temporary admin rights milte hain."}
+{"instruction": "Check sudo users kaise karte hain?", "response": "Sudoers file ya system config me sudo users ki list hoti hai."}
+{"instruction": "Add user to sudoers kaise karte hain?", "response": "Sudoers file edit karke user ko sudo permission di ja sakti hai."}
+{"instruction": "Lock user account kaise karte hain?", "response": "User lock command se account temporarily disable hota hai."}
+{"instruction": "Unlock user account kaise karte hain?", "response": "Unlock command se locked account wapas active hota hai."}
+{"instruction": "Set user password kaise karte hain?", "response": "passwd command ya user management tool se password set kiya jata hai."}
+{"instruction": "Change user password kaise karte hain?", "response": "Password change command ya control panel se password update hota hai."}
+{"instruction": "Expire user password kaise karte hain?", "response": "Password expiry policy set karke password forcefully expire hota hai."}
+{"instruction": "Force user to reset password kaise karte hain?", "response": "Password reset flag set karke next login par reset karna padta hai."}
+{"instruction": "Check last login of user kaise karte hain?", "response": "last command ya system log me user ka login history milta hai."}
+{"instruction": "Check failed login attempts kaise karte hain?", "response": "System log ya authentication log se failed login attempts dekhe ja sakte hain."}
+{"instruction": "Enable or disable root login kaise karte hain?", "response": "System security config me root login enable/disable kiya jata hai."}
+                                                                
+                                                                            python
+{"instruction": "Python script run kaise karein?", "response": "Terminal me python file_name.py run karke script execute hota hai."}
+{"instruction": "Python REPL kya hota hai?", "response": "REPL interactive shell hai jahan line-by-line code run karke turant output milta hai."}
+{"instruction": "Single-line comment kaise likhte hain?", "response": "Line ke start me # lagakar single-line comment likha jata hai."}
+{"instruction": "Multi-line comment/Docstring kaise likhen?", "response": "Triple quotes \"\"\" ... \"\"\" ya ''' ... ''' ke beech text likhte hain."}
+{"instruction": "Variable banane ka basic rule kya hai?", "response": "Bas naam = value likho, jaise x = 10; type declare karna zaroori nahi."}
+{"instruction": "Dynamic typing ka matlab kya hai?", "response": "Variable ka type run-time pe decide hota hai aur badal bhi sakta hai."}
+{"instruction": "Variable ka type kaise check karein?", "response": "type(x) function se variable ka data type milta hai."}
+{"instruction": "Multiple values print kaise karein?", "response": "print(a, b, c) se space-separated values print hoti hain."}
+{"instruction": "User se input kaise lein?", "response": "input() function user se string input leta hai."}
+{"instruction": "String input ko number me kaise convert karein?", "response": "int() ya float() se type cast karke numeric banaya jata hai."}
+{"instruction": "Arithmetic operators kaun se hain?", "response": "+, -, *, / basic; % modulo; // floor division; ** exponentiation."}
+{"instruction": "Floor division aur modulo me kya farq hai?", "response": "// quotient ka floor deta hai, % remainder return karta hai."}
+{"instruction": "Exponent operator kaise use hota hai?", "response": "** se power nikalte hain, jaise 2 ** 3 == 8."}
+{"instruction": "Operator precedence handle kaise karein?", "response": "Parentheses () use karke calculation order clear rakho."}
+{"instruction": "Comparison operators kaun se hain?", "response": "==, !=, <, <=, >, >= values compare karte hain aur bool return karte hain."}
+{"instruction": "Logical operators kaise kaam karte hain?", "response": "and, or, not boolean expressions ko combine/negate karte hain."}
+{"instruction": "Augmented assignment kya hota hai?", "response": "x += 1, x -= 2, x *= 3 jaise shorthand updates variable pe apply hote hain."}
+{"instruction": "String banane ke tareeke kya hain?", "response": "Single (' '), double (\" \") ya triple quotes me text likha jata hai."}
+{"instruction": "String join karna aur f-strings kab use karein?", "response": "Concatenation ke liye +; formatted output ke liye f\"{name} {age}\" simple rehta hai."}
+{"instruction": "String slicing kaise karte hain?", "response": "s[start:stop:step] se substring milti hai; negative index bhi use ho sakta hai."}
+{"instruction": "Escape characters aur raw strings ka use?", "response": "\\n, \\t jaise escapes; r\"path\\file\" raw string escapes ko ignore karta hai."}
+{"instruction": "List kya hoti hai aur use kaise karein?", "response": "Ordered, mutable collection; a = [1,2,3]; a.append(4) se item add hota hai."}
+{"instruction": "Tuple kab use hota hai?", "response": "Immutable ordered collection; fixed data ke liye (x, y) tuple use karte hain."}
+{"instruction": "Dictionary ka basic use kya hai?", "response": "Key-value store; d = {'name':'Aman'}; d['name'] access aur d.update() modify karta hai."}
+{"instruction": "Set kya hai aur kyun use karein?", "response": "Unique unordered elements; duplicates remove aur fast membership check deta hai."}
+{"instruction": "if/elif/else structure kaise likhen?", "response": "Indentation ke sath condition blocks likhte hain; har block same indent level me hota hai."}
+{"instruction": "for loop ka common use kya hai?", "response": "range(n) ya iterable pe iterate karke items process kiye jate hain."}
+{"instruction": "while loop kab use karte hain?", "response": "Jab condition true rahe tab tak repeat; break/continue flow control ke liye hote hain."}
+{"instruction": "Function define kaise hota hai?", "response": "def name(params): body; return value se result wapas diya jata hai."}
+{"instruction": "Docstring ka fayda kya hai?", "response": "Function ke niche triple quotes me description likho; help(func) me yahi text dikhai deta hai."}
+{"instruction": "Default argument kaise define karein?", "response": "def greet(name='Guest'): agar user input na de to default 'Guest' use hota hai."}
+{"instruction": "Keyword arguments ka use kya hai?", "response": "Function call me param=value style me arguments pass karke order ignore kar sakte hain."}
+{"instruction": "Variable-length arguments kaise handle karein?", "response": "*args for tuple, **kwargs for dict; multiple values flexible handle hoti hain."}
+{"instruction": "Lambda function kya hota hai?", "response": "Single-line anonymous function; lambda x: x+2 simple operation ke liye."}
+{"instruction": "Map function ka use kaise hota hai?", "response": "map(func, iterable) me function sab items pe apply hota hai aur result return hota hai."}
+{"instruction": "Filter function ka use kaise hota hai?", "response": "filter(func, iterable) me func True return kare to item select hota hai."}
+{"instruction": "Reduce function ka basic use kya hai?", "response": "from functools import reduce; cumulative operation iterable pe perform karta hai."}
+{"instruction": "List comprehension ka fayda kya hai?", "response": "[x*2 for x in range(5)] concise way me list banata hai."}
+{"instruction": "Dictionary comprehension ka use kaise karein?", "response": "{x:x*2 for x in range(5)} key-value pairs concise create karte hain."}
+{"instruction": "Set comprehension ka basic syntax?", "response": "{x for x in range(5) if x%2==0} unique filtered set banata hai."}
+{"instruction": "Exception handling kaise karein?", "response": "try: risky code; except Exception as e: handle error; finally: cleanup code."}
+{"instruction": "Multiple exceptions handle kaise karte hain?", "response": "except (TypeError, ValueError) as e: multiple error types catch karte hain."}
+{"instruction": "Custom exception kaise banayein?", "response": "class MyError(Exception): pass; raise MyError('message') custom error."}
+{"instruction": "File open/close ka basic syntax?", "response": "f = open('file.txt', 'r'); data = f.read(); f.close() manually file handle hota hai."}
+{"instruction": "with statement ka fayda kya hai?", "response": "with open('file.txt') as f: automatic close aur safer resource handling."}
+{"instruction": "Read file line by line kaise karein?", "response": "for line in f: process line sequentially without loading whole file."}
+{"instruction": "Write text to file kaise karein?", "response": "f.write('text') ya print('text', file=f) file me content add karte hain."}
+{"instruction": "Append mode ka use kya hai?", "response": "open('file.txt','a') existing file me naya data add karne ke liye."}
+{"instruction": "Binary mode file kaise handle karein?", "response": "'rb' read binary, 'wb' write binary; images aur non-text files ke liye."}
+{"instruction": "OS module ka basic use kya hai?", "response": "import os; file/folder operations aur environment info ke liye."}
+{"instruction": "List directory contents kaise dekhein?", "response": "os.listdir('path') se folder ke files aur subfolders milte hain."}
+{"instruction": "Create directory kaise karte hain?", "response": "os.mkdir('folder_name') ya os.makedirs('nested/folder') folder banata hai."}
+{"instruction": "Delete file ya folder kaise karein?", "response": "os.remove('file'); os.rmdir('folder'); shutil.rmtree('folder') recursive delete."}
+{"instruction": "Check file existence kaise karein?", "response": "os.path.exists('file') ya os.path.isfile('file') boolean return karta hai."}
+{"instruction": "Get current working directory kaise pata karein?", "response": "os.getcwd() current folder ka path return karta hai."}
+{"instruction": "Change working directory kaise karein?", "response": "os.chdir('path') se working directory switch hoti hai."}
+{"instruction": "Environment variables kaise access karein?", "response": "os.environ['VAR_NAME'] se value read ya set kar sakte hain."}
+{"instruction": "Run system command kaise karein?", "response": "os.system('command') ya subprocess module recommended for advanced use."}
+{"instruction": "Path join ka safe tareeka?", "response": "os.path.join('folder','file.txt') OS independent path create karta hai."}
+{"instruction": "Exception handling for file operations?", "response": "try: open/process file; except FileNotFoundError: handle missing; finally: close."}
+{"instruction": "Python me module kya hota hai?", "response": "Module ek Python file hoti hai jisme functions, classes aur variables defined hote hain aur import kiya ja sakta hai."}
+{"instruction": "Import statement ka basic use kya hai?", "response": "import module_name ya from module_name import func/classes module ko access karne ke liye."}
+{"instruction": "sys module ka use kaise hota hai?", "response": "import sys; command-line arguments aur system related info ke liye use hota hai."}
+{"instruction": "math module ke common functions?", "response": "math.sqrt(), math.pow(), math.ceil(), math.floor() aur math.factorial() common functions hain."}
+{"instruction": "random module ka basic use kya hai?", "response": "import random; random numbers, choice, shuffle aur sampling ke liye."}
+{"instruction": "datetime module ka use kaise karein?", "response": "import datetime; date aur time handle karne ke liye datetime.date, datetime.datetime classes use hoti hain."}
+{"instruction": "time module ka basic function?", "response": "import time; time.sleep(seconds) program ko delay karne ke liye."}
+{"instruction": "collections module ka use kaise karein?", "response": "from collections import Counter, deque, defaultdict advanced data structures aur counting ke liye."}
+{"instruction": "Counter ka example?", "response": "Counter(['a','b','a']) => {'a':2,'b':1} elements count karta hai."}
+{"instruction": "defaultdict ka basic use?", "response": "defaultdict(list) agar key missing ho to automatic default type create hota hai."}
+{"instruction": "deque ka fayda kya hai?", "response": "deque fast append aur pop operations left ya right side se karne ke liye."}
+{"instruction": "os vs pathlib module?", "response": "os traditional path handling; pathlib modern object-oriented path operations ke liye."}
+{"instruction": "Path object ka use kaise karein?", "response": "from pathlib import Path; p = Path('file.txt'); p.exists() check karta hai."}
+{"instruction": "JSON file handle kaise karein?", "response": "import json; json.load(f), json.dump(data,f) JSON read/write ke liye."}
+{"instruction": "Pickle module ka use kya hai?", "response": "import pickle; Python objects ko serialize/deserialize karne ke liye use hota hai."}
+{"instruction": "Serialize object ka example?", "response": "pickle.dump(obj, open('file.pkl','wb')) object ko file me save karta hai."}
+{"instruction": "Deserialize object ka example?", "response": "obj = pickle.load(open('file.pkl','rb')) file se object wapas load hota hai."}
+{"instruction": "Regular expression module ka use?", "response": "import re; pattern matching aur text validation ke liye re module use hota hai."}
+{"instruction": "re.match vs re.search?", "response": "re.match start of string match karta hai; re.search string me kahin bhi match karta hai."}
+{"instruction": "re.findall ka use kaise hota hai?", "response": "re.findall(pattern,string) saare matching substrings ka list return karta hai."}
+{"instruction": "re.sub ka basic use?", "response": "re.sub(pattern, repl, string) matching text ko replace karta hai."}
+{"instruction": "Function decorators ka basic kya hai?", "response": "@decorator function ke behavior ko modify karne ke liye wrapper function ka use hota hai."}
+{"instruction": "Class basics in Python?", "response": "class ClassName: __init__(), attributes aur methods define karte hain objects create karne ke liye."}
+{"instruction": "Instance aur class variable me difference?", "response": "Instance variable object specific; class variable shared across all objects hota hai."}
+{"instruction": "Inheritance ka basic concept?", "response": "class Child(Parent): Child class parent ke attributes aur methods inherit karta hai."}
+{"instruction": "Polymorphism ka simple example?", "response": "Multiple classes same method name define kar sakte hain; runtime decide kaunsa method call hoga."}
+{"instruction": "Encapsulation ka use kya hai?", "response": "Private variables/methods __varName ke through hide karke controlled access dena."}
+{"instruction": "Multiple inheritance ka example?", "response": "class C(A,B): C class dono parent A aur B se inherit karta hai."}
+{"instruction": "Super() function ka basic use?", "response": "super().__init__() parent class ka constructor ya methods call karne ke liye."}
+{"instruction": "Property decorator ka use?", "response": "@property attribute ko read-only ya calculated property banane ke liye."}
+{"instruction": "Python me abstract class ka use?", "response": "from abc import ABC, abstractmethod; base class me abstract methods define karke subclass implement karwate hain."}
+{"instruction": "Python me exception handling ka basic?", "response": "try-except block se errors handle kiye ja sakte hain without crashing program."}
+{"instruction": "Finally block ka use?", "response": "try-except-finally; finally block hamesha execute hota hai, cleanup ke liye use hota hai."}
+{"instruction": "Raise keyword ka basic use?", "response": "raise Exception('Error') manually exception throw karne ke liye use hota hai."}
+{"instruction": "Custom exception kaise banate hain?", "response": "class MyError(Exception): pass; custom exception define karke raise kar sakte hain."}
+{"instruction": "With statement ka use?", "response": "with open('file.txt') as f: automatic resource cleanup ke liye use hota hai."}
+{"instruction": "Context manager ka basic?", "response": "__enter__() aur __exit__() methods define karke resource management karte hain."}
+{"instruction": "Lambda function ka use?", "response": "Anonymous function create karne ke liye lambda x: x+1 syntax use hota hai."}
+{"instruction": "Map function ka basic use?", "response": "map(func, iterable) iterable ke elements par function apply karta hai aur iterator return karta hai."}
+{"instruction": "Filter function ka use?", "response": "filter(func, iterable) true condition elements ko select karta hai."}
+{"instruction": "Reduce function ka use?", "response": "from functools import reduce; iterable ke elements ko cumulative apply karke single value deta hai."}
+{"instruction": "List comprehension ka basic?", "response": "[x*2 for x in iterable if condition] concise list creation ke liye."}
+{"instruction": "Dictionary comprehension ka use?", "response": "{k:v for k,v in iterable} dictionary create karne ke liye."}
+{"instruction": "Set comprehension ka example?", "response": "{x for x in iterable if condition} unique elements ke set banane ke liye."}
+{"instruction": "Generator expression ka use?", "response": "(x*x for x in iterable) memory efficient iterator create karta hai."}
+{"instruction": "Yield keyword ka basic?", "response": "function me yield return karta hai generator produce karne ke liye next call tak pause hota hai."}
+{"instruction": "Iterators aur iterable me difference?", "response": "Iterable object loop me iterate hota hai; iterator next() se values produce karta hai."}
+{"instruction": "Zip function ka basic use?", "response": "zip(list1,list2) elements ko tuple me combine karke iterator return karta hai."}
+{"instruction": "Enumerate function ka use?", "response": "enumerate(iterable, start=0) index aur element ka tuple return karta hai."}
+{"instruction": "Args aur kwargs ka difference?", "response": "*args variable positional arguments; **kwargs keyword arguments ke liye use hota hai."}
+
+{"instruction": "Python me docstring ka use?", "response": "Docstring" "function/class ke description ke liye use hota hai."}
+{"instruction": "Python me __str__ aur __repr__ difference?", "response": "__str__ readable string; __repr__ unambiguous debug string ke liye."}
+{"instruction": "Python me module reload kaise karte hain?", "response": "import importlib; importlib.reload(module) module reload ke liye."}
+{"instruction": "Python me dir() function ka use?", "response": "dir(object) object ke attributes aur methods list karta hai."}
+{"instruction": "Python me globals() aur locals()?", "response": "globals() global namespace; locals() local namespace ke variables return karta hai."}
+{"instruction": "Python me hasattr() ka use?", "response": "hasattr(obj,'attr') check karta hai object me attribute exist karta hai ya nahi."}
+{"instruction": "Python me getattr() ka use?", "response": "getattr(obj,'attr') attribute ki value return karta hai."}
+{"instruction": "Python me setattr() ka use?", "response": "setattr(obj,'attr',value) object ke attribute ki value set karta hai."}
+{"instruction": "Python me delattr() ka use?", "response": "delattr(obj,'attr') object ke attribute ko delete karta hai."}
+{"instruction": "Python me isinstance() ka use?", "response": "isinstance(obj,Class) check karta hai object specified class ka instance hai ya nahi."}
+{"instruction": "Python me issubclass() ka use?", "response": "issubclass(SubClass,ParentClass) check karta hai subclass parent class ka hai ya nahi."}
+{"instruction": "Python me dir() ka example?", "response": "dir(str) string class ke attributes aur methods list karta hai."}
+{"instruction": "Python me help() ka use?", "response": "help(obj/function/module) documentation aur usage information show karta hai."}
+{"instruction": "Python me type() ka use?", "response": "type(obj) object ka type ya class return karta hai."}
+{"instruction": "Python me id() ka use?", "response": "id(obj) object ka unique memory address return karta hai."}
+{"instruction": "Python me mutable aur immutable types kya hote hain?", "response": "Mutable types (list, dict, set) change ho sakte hain; immutable types (int, str, tuple) change nahi hote."}
+{"instruction": "Python me shallow copy aur deep copy ka difference?", "response": "Shallow copy references copy karta hai; deep copy nested objects ka full independent copy banata hai."}
+{"instruction": "Python me import ka basic use?", "response": "import module se dusre module ke functions, classes ya variables use kar sakte hain."}
+{"instruction": "Python me from-import ka use?", "response": "from module import func se sirf specific function/class import hota hai."}
+{"instruction": "Python me as keyword ka use?", "response": "import module as alias; alias se module ko shorthand naam se use karte hain."}
+{"instruction": "Python me pip ka basic?", "response": "pip Python package installer hai; pip install package se package install hota hai."}
+{"instruction": "Python me virtual environment ka use?", "response": "venv project-specific dependencies isolate karne ke liye use hota hai."}
+{"instruction": "Python me requirements.txt ka use?", "response": "project ke dependencies ko list karne aur install karne ke liye."}
+{"instruction": "Python me sys module ka basic?", "response": "sys module system-specific parameters aur functions provide karta hai."}
+{"instruction": "Python me os module ka basic?", "response": "os module operating system related functions like file handling aur environment variables provide karta hai."}
+{"instruction": "Python me datetime module ka use?", "response": "datetime module date aur time handle karne ke liye use hota hai."}
+{"instruction": "Python me time module ka use?", "response": "time module current time, sleep aur timestamp operations ke liye use hota hai."}
+{"instruction": "Python me random module ka basic?", "response": "random module random numbers ya elements select karne ke liye use hota hai."}
+{"instruction": "Python me math module ka use?", "response": "math module mathematical functions like sqrt, sin, cos provide karta hai."}
+{"instruction": "Python me json module ka basic?", "response": "json module JSON data ko parse aur generate karne ke liye use hota hai."}
+{"instruction": "Python me re module ka basic?", "response": "re module regular expressions handle karne ke liye use hota hai."}
+{"instruction": "Python me shutil module ka use?", "response": "shutil module files aur directories ko copy, move aur delete karne ke liye use hota hai."}
+{"instruction": "Python me pathlib module ka use?", "response": "pathlib module modern file system paths handle karne ke liye object-oriented interface provide karta hai."}
+{"instruction": "Python me subprocess module ka basic?", "response": "subprocess module external commands aur processes execute karne ke liye use hota hai."}
+{"instruction": "Python me logging module ka use?", "response": "logging module program ke execution messages aur errors track karne ke liye use hota hai."}
+{"instruction": "Python me pickle module ka basic?", "response": "pickle module objects ko serialize aur deserialize karne ke liye use hota hai."}
+{"instruction": "Python me copy module ka use?", "response": "copy module shallow aur deep copies banane ke liye functions provide karta hai."}
+{"instruction": "Python me itertools module ka basic?", "response": "itertools module efficient iterator functions provide karta hai jaise permutations, combinations."}
+{"instruction": "Python me functools module ka use?", "response": "functools module higher-order functions aur decorators handle karne ke liye use hota hai."}
+{"instruction": "Python me operator module ka basic?", "response": "operator module functions provide karta hai standard operators ke liye jaise add, sub, mul."}
+{"instruction": "Python me bisect module ka use?", "response": "bisect module sorted list me insert position find karne ke liye use hota hai."}
+{"instruction": "Python me heapq module ka basic?", "response": "heapq module priority queue aur heap operations handle karne ke liye use hota hai."}
+{"instruction": "Python me array module ka use?", "response": "array module fixed type arrays create aur manipulate karne ke liye use hota hai."}
+{"instruction": "Python me struct module ka basic?", "response": "struct module binary data ko pack aur unpack karne ke liye use hota hai."}
+{"instruction": "Python me uuid module ka use?", "response": "uuid module universally unique identifiers generate karne ke liye use hota hai."}
+{"instruction": "Python me hashlib module ka basic?", "response": "hashlib module cryptographic hash functions provide karta hai jaise md5, sha256."}
+{"instruction": "Python me base64 module ka use?", "response": "base64 module binary data ko encode aur decode karne ke liye use hota hai."}
+{"instruction": "Python me csv module ka basic?", "response": "csv module CSV files read aur write karne ke liye use hota hai."}
+{"instruction": "Python me configparser module ka use?", "response": "configparser module configuration files ko read aur write karne ke liye use hota hai."}
+{"instruction": "Python me urllib module ka basic?", "response": "urllib module URLs handle karne aur HTTP requests send karne ke liye use hota hai."}
+{"instruction": "Python me requests module ka use?", "response": "requests module HTTP requests simple tarike se send karne ke liye use hota hai."}
+{"instruction": "Python me socket module ka basic?", "response": "socket module network communication aur TCP/UDP connections ke liye use hota hai."}
+{"instruction": "Python me threading module ka use?", "response": "threading module concurrent threads run karne ke liye use hota hai."}
+{"instruction": "Python me multiprocessing module ka basic?", "response": "multiprocessing module multiple processes create aur manage karne ke liye use hota hai."}
+{"instruction": "Python me queue module ka use?", "response": "queue module thread-safe queues create aur manage karne ke liye use hota hai."}
+{"instruction": "Python me asyncio module ka basic?", "response": "asyncio module asynchronous programming aur event loops ke liye use hota hai."}
+{"instruction": "Python me contextlib module ka use?", "response": "contextlib module context managers aur with statement support ke liye use hota hai."}
+{"instruction": "Python me decimal module ka basic?", "response": "decimal module precise decimal arithmetic ke liye use hota hai."}
+{"instruction": "Python me fractions module ka use?", "response": "fractions module rational numbers aur fraction arithmetic ke liye use hota hai."}
+{"instruction": "Python me statistics module ka basic?", "response": "statistics module mean, median, mode aur standard deviation calculate karne ke liye use hota hai."}
+{"instruction": "Python me enum module ka use?", "response": "enum module enumerations aur symbolic names ke liye use hota hai."}
+{"instruction": "Python me typing module ka basic?", "response": "typing module type hints aur static type checking support karta hai."}
+{"instruction": "Python me dataclasses module ka use?", "response": "dataclasses module simple classes aur boilerplate reduce karne ke liye use hota hai."}
+{"instruction": "Python me pathlib module ka basic?", "response": "pathlib module object-oriented filesystem paths handle karne ke liye use hota hai."}
+{"instruction": "Python me itertools module ka use?", "response": "itertools module efficient iterator aur combinatorics tools provide karta hai."}
+{"instruction": "Python me functools module ka basic?", "response": "functools module higher-order functions aur function decorators ke liye use hota hai."}
+{"instruction": "Python me built-in functions ka basic?", "response": "Python built-in functions jaise len(), type(), range(), sum() common operations ke liye use hote hain."}
+{"instruction": "Python me map function ka use?", "response": "map() function iterable ke elements par given function apply karta hai aur result return karta hai."}
+{"instruction": "Python me filter function ka basic?", "response": "filter() function iterable ke elements me condition check karke filtered elements return karta hai."}
+{"instruction": "Python me reduce function ka use?", "response": "reduce() function cumulative operation iterable par apply karke single value return karta hai."}
+{"instruction": "Python me lambda function ka basic?", "response": "lambda function anonymous small functions define karne ke liye use hota hai."}
+{"instruction": "Python me list comprehension ka use?", "response": "list comprehension se concise syntax me new lists create ki ja sakti hain."}
+{"instruction": "Python me dictionary comprehension ka basic?", "response": "dictionary comprehension se concise syntax me new dictionaries create ki ja sakti hain."}
+{"instruction": "Python me set comprehension ka use?", "response": "set comprehension se concise syntax me new sets create ki ja sakti hain."}
+{"instruction": "Python me generator expression ka basic?", "response": "generator expression memory-efficient iterators generate karne ke liye use hota hai."}
+
+
+{"instruction": "Open a file in read mode kaise karte hain?", "response": "open('filename.txt', 'r') command se file read mode me open hoti hai."}
+{"instruction": "Open a file in write mode kaise karte hain?", "response": "open('filename.txt', 'w') se file write mode me open hoti hai aur purani content overwrite hoti hai."}
+{"instruction": "Open a file in append mode kaise karte hain?", "response": "open('filename.txt', 'a') se file append mode me open hoti hai aur data end me add hota hai."}
+{"instruction": "Close a file kaise karte hain?", "response": "file.close() method se file properly close ho jati hai."}
+{"instruction": "Read entire file content kaise karte hain?", "response": "file.read() method se file ka pura content ek string me milta hai."}
+{"instruction": "Read file line by line kaise karte hain?", "response": "file.readline() ya for loop me iterate karke lines read ki ja sakti hain."}
+{"instruction": "Write data to file kaise karte hain?", "response": "file.write('data') method se file me naya content likha ja sakta hai."}
+{"instruction": "Append data to file kaise karte hain?", "response": "file.write('data') append mode me use karke file ke end me data add hota hai."}
+{"instruction": "Check if file exists kaise karte hain?", "response": "os.path.exists('filename.txt') se pata chalta hai ki file exist karti hai ya nahi."}
+{"instruction": "Delete a file kaise karte hain?", "response": "os.remove('filename.txt') se file delete ho jati hai."}
+{"instruction": "Rename a file kaise karte hain?", "response": "os.rename('old.txt', 'new\.txt') se file ka naam change hota hai."}
+{"instruction": "Copy a file kaise karte hain?", "response": "shutil.copy('source.txt', 'destination.txt') se file copy hoti hai."}
+{"instruction": "Move a file kaise karte hain?", "response": "shutil.move('source.txt', 'destination/') se file move hoti hai."}
+{"instruction": "Create a directory kaise karte hain?", "response": "os.mkdir('foldername') se new directory create hoti hai."}
+{"instruction": "Delete a directory kaise karte hain?", "response": "os.rmdir('foldername') se empty directory delete hoti hai."}
+{"instruction": "List files in a directory kaise karte hain?", "response": "os.listdir('foldername') se directory ke files aur folders ka list milta hai."}
+{"instruction": "Check if path is file ya directory kaise karte hain?", "response": "os.path.isfile() ya os.path.isdir() se pata chalta hai."}
+{"instruction": "Get current working directory kaise karte hain?", "response": "os.getcwd() se current working directory ka path milta hai."}
+{"instruction": "Change working directory kaise karte hain?", "response": "os.chdir('path') se current working directory change hoti hai."}
+{"instruction": "Get file size kaise check karte hain?", "response": "os.path.getsize('filename.txt') se file ka size bytes me pata chalta hai."}
+{"instruction": "Check file permissions kaise karte hain?", "response": "os.access('filename.txt', os.R\_OK) ya W\_OK se read/write permission check hoti hai."}
+{"instruction": "Set file permissions kaise karte hain?", "response": "os.chmod('filename.txt', 0o644) se file permissions set ki ja sakti hain."}
+{"instruction": "Check last modified time kaise dekhte hain?", "response": "os.path.getmtime('filename.txt') se last modified timestamp milta hai."}
+{"instruction": "Check last access time kaise dekhte hain?", "response": "os.path.getatime('filename.txt') se last access timestamp milta hai."}
+{"instruction": "Get absolute path kaise milta hai?", "response": "os.path.abspath('filename.txt') se file ka absolute path milta hai."}
+{"instruction": "Check if file is empty kaise karte hain?", "response": "os.path.getsize('filename.txt') == 0 se pata chalta hai ki file empty hai ya nahi."}
+{"instruction": "Read binary file kaise karte hain?", "response": "open('filename.bin', 'rb') se binary file read hoti hai."}
+{"instruction": "Write binary file kaise karte hain?", "response": "open('filename.bin', 'wb') me data write kar sakte hain."}
+{"instruction": "Append binary file kaise karte hain?", "response": "open('filename.bin', 'ab') me data append hota hai."}
